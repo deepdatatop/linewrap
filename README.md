@@ -4,8 +4,11 @@ string line wrap by width
 Sample measure text width function
 
 func measureTextWidth(fontname,text string,fontsize int) (w float64){
+
 	Canvas.SetFont(fontname, fontsize)
+
 	w = Canvas.MeasureTextWidth( text )
+
 	return
 }
 
